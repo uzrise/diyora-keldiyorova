@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "Next.js i18n Demo1",
+    "desc": "How to implement i18n with Next.js (based on App Router)"
+  },
+  "home": {
+    "title": "Hello, Nextadasdasd a dasd asdasdasd.js i18n1111",
+    "desc": "This is a demo of Next.js i18n"
+  }
+}
