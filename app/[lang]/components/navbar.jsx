@@ -44,13 +44,25 @@ const Navbar = () => {
       <nav>
         <ul className="text-[#878787] text-xl font-normal lg:flex gap-[60px] hidden">
           <li className="cursor-pointer">
-            <a href="#about-us" className="nav-link">
+            <a href="#about-me" className="nav-link">
               About me
-            </a>{" "}
+            </a>
           </li>
-          <li className="cursor-pointer">Results</li>
-          <li className="cursor-pointer">Gallery</li>
-          <li className="cursor-pointer">Key connections</li>
+          <li className="cursor-pointer">
+            <a href="#results" className="nav-link">
+              Results
+            </a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="#gallery" className="nav-link">
+              Gallery
+            </a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="#connections" className="nav-link">
+              Key connections
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

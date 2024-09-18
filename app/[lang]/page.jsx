@@ -45,7 +45,7 @@ export default async function Home({ params: { lang } }) {
             anything.
           </h1>
         </section>
-        <section>
+        <section id="results">
           <div className="bg-[#252525] 2xl:p-[80px] p-[64px] rounded-[50px] text-white">
             <h1 className="text-center 2xl:text-7xl text-[56px]  font-semibold mb-14 2xl:mb-20">
               Best Results
@@ -217,7 +217,10 @@ export default async function Home({ params: { lang } }) {
             </div>
           </div>
         </section>
-        <section className="flex flex-col-reverse lg:flex-row justify-between gap-5 items-center">
+        <section
+          id="about-me"
+          className="flex flex-col-reverse lg:flex-row justify-between gap-5 items-center"
+        >
           <div className="flex flex-col gap-10">
             <h1 className="text-[56px] 2xl:text-[72px] font-semibold leading-[72px] 2xl:leading-[86px]">
               Diyora <br /> Keldiyorova
@@ -241,7 +244,7 @@ export default async function Home({ params: { lang } }) {
             alt="result-1"
           />
         </section>
-        <section className="flex flex-col gap-[100px]">
+        <section id="connections" className="flex flex-col gap-[100px]">
           <h1 className="text-7xl font-semibold text-center">
             Key connections
           </h1>
@@ -266,7 +269,7 @@ export default async function Home({ params: { lang } }) {
             ))}
           </div>
         </section>
-        <section className="flex flex-col  gap-[64px]">
+        <section id="gallery" className="flex flex-col  gap-[64px]">
           <div className="grid grid-cols-2 gap-8">
             <div className="col-span-1">
               {/* eslint-disable  */}
@@ -337,7 +340,10 @@ export default async function Home({ params: { lang } }) {
                   className="2xl:size-[202px] lg:size-[120px] mb-[50px]"
                 />
               </a>
-              <a href="https://youtube.com" target="_blank">
+              <a
+                href="https://www.youtube.com/@Keldiyorova_Diyoraofficial"
+                target="_blank"
+              >
                 <Image
                   src={"/img/youtube.png"}
                   width={202}
@@ -355,7 +361,7 @@ export default async function Home({ params: { lang } }) {
             alt="socials"
           />
         </section>
-        <section id="about-us" className="flex justify-center">
+        <section id="about-me" className="flex justify-center">
           <div className="flex flex-col px-12 py-7 max-w-[736px]">
             <h1 className="font-semibold text-[72px]">Contact us</h1>
             <p className="text-[24px] text-[#878787] mt-5">
@@ -402,7 +408,10 @@ export default async function Home({ params: { lang } }) {
                   />
                 </svg>
               </a>
-              <a href="https://youtube.com" target="_blank">
+              <a
+                href="https://www.youtube.com/@Keldiyorova_Diyoraofficial"
+                target="_blank"
+              >
                 <svg
                   width="32"
                   height="32"
