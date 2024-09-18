@@ -1,12 +1,9 @@
 import Image from "next/image";
-import { getDictionary } from "./dictionaries";
-import Logo from "./components/logo";
-import Navbar from "./components/navbar";
-import ContactForm from "./components/contact-us";
+import Logo from "./[lang]/components/logo";
+import Navbar from "./[lang]/components/navbar";
+import ContactForm from "./[lang]/components/contact-us";
 
-export default async function Home({ params: { lang } }) {
-  const t = await getDictionary(lang);
-
+export default async function Home() {
   return (
     <>
       <section className="bg-[url('/img/bg.png')] bg-cover bg-center bg-no-repeat h-screen flex flex-col">

@@ -1,5 +1,4 @@
-import Link from "next/link";
-import "../globals.css";
+import "./globals.css";
 import { Sora } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 const sora = Sora({ subsets: ["latin"] });
