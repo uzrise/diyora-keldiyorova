@@ -54,50 +54,52 @@ const Navbar = ({ t }) => {
   return (
     <header
       ref={navbarRef}
-      className="bg-transparent h-[120px] max-w-[1600px] px-16 2xl:p-0 w-full mx-auto flex items-center justify-between"
+      className="bg-[#0000003D] backdrop-blur-xl left-0 right-0 fixed top-0 h-[120px]  w-full mx-auto flex"
     >
-      <Link href={`/${language}`}>
-        <Logo />
-      </Link>
-      <nav className="flex items-center gap-8">
-        <ul className="text-[#878787] text-xl font-normal lg:flex gap-[60px] hidden">
-          <li className="cursor-pointer">
-            <a href="#about-me" className="nav-link">
-              {t.nav.about_me}
-            </a>
-          </li>
-          <li className="cursor-pointer">
-            <a href="#results" className="nav-link">
-              {t.nav.results}
-            </a>
-          </li>
-          <li className="cursor-pointer">
-            <a href="#gallery" className="nav-link">
-              {t.nav.gallery}
-            </a>
-          </li>
-          <li className="cursor-pointer">
-            <a href="#connections" className="nav-link">
-              {t.nav.key_connections}
-            </a>
-          </li>
-        </ul>
-        <select
-          value={language}
-          onChange={handleLanguageChange}
-          className="text-[#878787] text-xl font-normal bg-transparent outline-none"
-        >
-          <option value="uz" className="bg-[#252525]">
-            Uz
-          </option>
-          <option className="bg-[#252525]" value="ru">
-            Ru
-          </option>
-          <option className="bg-[#252525]" value="en">
-            En
-          </option>
-        </select>
-      </nav>
+      <div className="max-w-[1600px] w-full mx-auto px-16 2xl:p-0 flex items-center justify-between">
+        <Link href={`/${language}`}>
+          <Logo />
+        </Link>
+        <nav className="flex items-center gap-8">
+          <ul className="text-[#878787] text-xl font-normal lg:flex gap-[60px] hidden">
+            <li className="cursor-pointer">
+              <a href="#about-me" className="nav-link">
+                {t.nav.about_me}
+              </a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#results" className="nav-link">
+                {t.nav.results}
+              </a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#gallery" className="nav-link">
+                {t.nav.gallery}
+              </a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#connections" className="nav-link">
+                {t.nav.key_connections}
+              </a>
+            </li>
+          </ul>
+          <select
+            value={language}
+            onChange={handleLanguageChange}
+            className="text-[#878787] text-xl font-normal bg-transparent outline-none"
+          >
+            <option value="uz" className="bg-[#252525]">
+              Uz
+            </option>
+            <option className="bg-[#252525]" value="ru">
+              Ru
+            </option>
+            <option className="bg-[#252525]" value="en">
+              En
+            </option>
+          </select>
+        </nav>
+      </div>
     </header>
   );
 };

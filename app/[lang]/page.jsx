@@ -7,7 +7,7 @@ import Link from "next/link";
 import { getDictionary } from "./dictionaries";
 
 export default async function Home({ params: { lang } }) {
-  const t = await getDictionary(lang);
+  const t = await getDictionary(lang || "en");
   const leaders = [
     {
       imgSrc: "/img/president.jpg",
@@ -42,8 +42,9 @@ export default async function Home({ params: { lang } }) {
   ];
   return (
     <>
-      <section className="bg-[url('/img/bg.png')] bg-cover bg-center bg-no-repeat h-screen flex flex-col">
-        <Navbar t={t} />
+      <Navbar t={t} />
+
+      <section className="bg-[url('/img/bg.png')] bg-cover bg-top bg-no-repeat h-screen flex flex-col">
         <div className="px-2 mx-auto flex flex-col xl:flex-row gap-[24px]  xl:gap-[64px] items-center mt-auto mb-[96px]">
           <h1
             className="text-center xl:text-right text-[44px] leading-[48px] xl:text-[64px] xl:leading-[72px] 2xl:text-8xl font-bold 2xl:leading-[110px]"
