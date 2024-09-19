@@ -15,4 +15,9 @@ const dictionaries = {
     ),
 };
 
-export const getDictionary = async (locale) => dictionaries[locale || "en"]();
+export const getDictionary = async (locale) => {
+  const fallbackLocale = "en"; // Set your fallback language here
+  return dictionaries[locale]
+    ? dictionaries[locale]()
+    : dictionaries[fallbackLocale]();
+};

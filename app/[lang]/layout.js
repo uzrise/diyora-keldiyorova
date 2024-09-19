@@ -2,11 +2,15 @@ import "../globals.css";
 import { Sora } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import Logo from "./components/logo";
+import { redirect } from "next/navigation";
 const sora = Sora({ subsets: ["latin"] });
 
 export default function Layout({ children, params }) {
-  console.log(params.lang);
+  const { lang } = params;
 
+  if (!lang) {
+    redirect("/en");
+  }
   return (
     <html lang={params.lang} className={sora.className}>
       <body>
