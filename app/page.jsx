@@ -2,6 +2,8 @@ import Image from "next/image";
 import Logo from "./[lang]/components/logo";
 import Navbar from "./[lang]/components/navbar";
 import ContactForm from "./[lang]/components/contact-us";
+import Socials from "./[lang]/components/socials";
+import Link from "next/link";
 
 export default async function Home() {
   return (
@@ -170,13 +172,16 @@ export default async function Home() {
           </div>
         </section>
         <section>
-          <div className="w-[300px] h-[216px] rounded-[50px] bg-[#252525] p-2 mx-auto -mb-[108px]">
-            <Image
+          <div className="w-[300px] h-[216px] rounded-[50px] bg-[#000000] z-40 relative p-2 mx-auto -mb-[108px]">
+            {/* <Image
               src={"/img/result.png"}
               width={284}
               height={200}
               alt="result"
-            />
+            /> */}
+            <h1 className="text-[36px] text-center text-[#DFDFDF] my-[55px]">
+              Medals <br /> of Diyora
+            </h1>
           </div>
           <div className="bg-[#252525] rounded-[50px] max-w-[960px] w-full flex flex-col mx-auto h-[725px]">
             <div className="mt-auto flex gap-[18px] w-full justify-center border-b-2 border-[#878787]">
@@ -301,79 +306,14 @@ export default async function Home() {
               />
             </div>
           </div>
-          <button className="rounded-[50px] p-[20px_26px] border border-[#878787]  mx-auto">
-            {" "}
-            View More
-          </button>
+          <Link href={"/gallery"}>
+            <button className="rounded-[50px] p-[20px_26px] border border-[#878787]  mx-auto">
+              View More
+            </button>
+          </Link>
         </section>
-        <section className="flex items-center justify-center gap-16">
-          <Image
-            src={"/img/socials-left.png"}
-            width={385}
-            height={588}
-            alt="socials"
-          />
-          <div className="flex flex-col gap-10">
-            <h1 className="text-center text-[56px] font-bold">Follow me on</h1>
-            <div className="flex items-end">
-              <a
-                href="https://www.instagram.com/diyora_keldiyorova?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==l"
-                target="_blank"
-              >
-                <Image
-                  src={"/img/instagram.png"}
-                  width={202}
-                  height={202}
-                  alt="socials"
-                  className="2xl:size-[202px] lg:size-[120px] "
-                />
-              </a>
-              <a href="https://t.me/diyora_keldiyorovaofficial" target="_blank">
-                <Image
-                  src={"/img/telegram.png"}
-                  width={202}
-                  height={202}
-                  alt="socials"
-                  className="2xl:size-[202px] lg:size-[120px] mb-[50px]"
-                />
-              </a>
-              <a
-                href="https://www.youtube.com/@Keldiyorova_Diyoraofficial"
-                target="_blank"
-              >
-                <Image
-                  src={"/img/youtube.png"}
-                  width={202}
-                  height={202}
-                  alt="socials"
-                  className="2xl:size-[202px] lg:size-[120px] "
-                />
-              </a>
-            </div>
-          </div>
-          <Image
-            src={"/img/socials-right.png"}
-            width={385}
-            height={588}
-            alt="socials"
-          />
-        </section>
-        <section id="about-me" className="flex justify-center">
-          <div className="flex flex-col px-12 py-7 max-w-[736px]">
-            <h1 className="font-semibold text-[72px]">Contact us</h1>
-            <p className="text-[24px] text-[#878787] mt-5">
-              Have any questions or propositions? Leave your message and we'll
-              get back to you in an instant!
-            </p>
-            <ContactForm />
-          </div>
-          <Image
-            src={"/img/contact-us.png"}
-            width={736}
-            height={762}
-            className="w-[736px] object-cover"
-          />
-        </section>
+        <Socials />
+        <ContactForm />
       </main>
       <footer className="pt-[100px] pb-[40px] px-16 2xl:px-0 bg-[#252525]">
         <div className=" max-w-[1600px] mx-auto">
