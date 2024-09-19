@@ -8,46 +8,43 @@ const Gallery = () => {
   // Dummy image data (you can replace these with actual image URLs)
   const tabs = [
     {
-      name: "World Championships </br> 2023, 2024",
+      name: "Highlights",
       images: [
         "/img/gallery/1.jpg",
         "/img/gallery/2.jpg",
         "/img/gallery/3.jpg",
         "/img/gallery/4.jpg",
-      ],
-    },
-    {
-      name: "Grand Slam 1",
-      images: [
         "/img/gallery/5.jpg",
         "/img/gallery/6.jpg",
         "/img/gallery/7.jpg",
         "/img/gallery/8.jpg",
-      ],
-    },
-    {
-      name: "Grand Slam 2",
-      images: [
         "/img/gallery/9.jpg",
         "/img/gallery/10.jpg",
         "/img/gallery/11.jpg",
         "/img/gallery/12.jpeg",
-      ],
-    },
-    {
-      name: "Grand Slam 3",
-      images: [
         "/img/gallery-1.png",
         "/img/gallery-2.png",
         "/img/gallery-3.png",
         "/img/gallery-4.png",
       ],
     },
+    {
+      name: "Grand Slam 1",
+      images: [],
+    },
+    {
+      name: "Grand Slam 2",
+      images: [],
+    },
+    {
+      name: "Grand Slam 3",
+      images: [],
+    },
   ];
 
   return (
     <div className="flex gap-[32px] px-8 xl:px-16 2xl:p-0 flex-col lg:flex-row justify-center my-20 ">
-      <div className="lg:block flex w-full  overflow-x-auto lg:overflow-hidden lg:w-[320px] lg:mb-0 mb-8 lg:sticky top-0 whitespace-nowrap">
+      <div className="lg:block flex w-full  overflow-x-auto lg:overflow-hidden h-fit lg:w-[320px] lg:mb-0 mb-8 lg:sticky top-0 whitespace-nowrap">
         {tabs.map((tab, index) => (
           <button
             key={index}

@@ -1,10 +1,62 @@
 {
-  "page": {
-    "title": "Next.js i18n Demoqqwq1",
-    "desc": "How to implement i18n with Next.js (based on App Router)"
+  "hero": {
+    "desc": "Uzbekistan's first-ever <br className='hidden xl:block' /> Olympic champion in judo"
   },
-  "home": {
-    "title": "Hello, Next.js i18ns",
-    "desc": "This is a demo of Next.js i18n"
+  "section": {
+    "title": "I’m glad that i’m the first to bring an olympic gold medal to the history of uzbek judo. <br />I proved that women are capable of anything.",
+    "badge": "Anything <br /> is possible!"
+  },
+  "results": {
+    "title": "Best Results",
+    "1": "Paris Olympic Games 2024",
+    "2": "19th Asian Games Hangzhou 2022",
+    "3": "World Championships 2023, 2024",
+    "4": "Grand Slam",
+    "5": "Grand Prix"
+  },
+  "medals": {
+    "title": "Medals </br> of Diyora",
+    "total": "total world judo tour"
+  },
+  "connections": {
+    "title": "Key connections",
+    "total": "total world judo tour",
+    "1": {
+      "name": "HE Shavkat Mirziyoyev",
+      "title": "President of the Republic of Uzbekistan."
+    },
+    "2": {
+      "name": "Mr. Adkham Ikramov",
+      "title": "Minister of Sports of the Republic of Uzbekistan."
+    },
+    "3": {
+      "name": "Shahnoza Mirziyoyeva",
+      "title": "First Deputy Director of the National Agency for Social Protection of Uzbekistan."
+    },
+    "4": {
+      "name": "Mr. Otabek Umarov",
+      "title": "Vice-president of the Olympic Council of Asia."
+    },
+    "5": {
+      "name": "Mr. Azizion Kamilov",
+      "title": "Chairman of the Uzbekistan Judo Federation."
+    },
+    "6": {
+      "name": "Mr. Bahodir Qurbonov",
+      "title": "Minister of Defense of Uzbekistan."
+    }
+  },
+
+  "dk": "Diyora </br> Keldiyorova",
+  "about": "Olympic champion in Judo, Diyora Keldiyorova became a national hero in Uzbekistan on 28 July by winning the country`s first-ever Olympic judo gold in the -52kg category at Paris 2024. Beyond her impressive athletic achievements, including two World Championship silver medals, Keldiyorova embodies the Olympic values of excellence, friendship and respect. She is a role model, inspiring countless women and girls, showing them the power of determination and the possibilities that lie ahead.",
+  "view_more": "View More",
+  "follow": "Follow me on",
+  "contact_us": {
+    "title": "Contact us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Messages...",
+    "desc": "Have any questions or propositions? Leave your message and we`ll get back to you in an instant!",
+    "send_message": "Send Message"
   }
 }

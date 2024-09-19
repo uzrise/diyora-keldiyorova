@@ -1,10 +1,61 @@
 {
-  "page": {
-    "title": "Next.js i18n Demo1",
-    "desc": "How to implement i18n with Next.js (based on App Router)"
+  "hero": {
+    "desc": "O‘zbekiston tarixda birinchi </br> Dzyudo bo'yicha Olimpiya chempioni"
   },
-  "home": {
-    "title": "Hello, Nextadasdasd a dasd asdasdasd.js i18n1111",
-    "desc": "This is a demo of Next.js i18n"
+  "section": {
+    "title": "O‘zbek dzyudosi tarixiga birinchi bo‘lib Olimpiada oltin medalini keltirganimdan, ayollar ham hamma narsaga qodir ekanini isbotlaganimdan xursandman.",
+    "badge": "Hamma </br> narsa mumkin!"
+  },
+  "results": {
+    "title": "Eng yaxshi natijalar",
+    "1": "Parij Olimpiya o'yinlari",
+    "2": "Xanchjou 2022 19-Osiyo oʻyinlari",
+    "3": "Jahon chempionati 2023, 2024",
+    "4": "Katta Dubulg'a",
+    "5": "Gran-pri"
+  },
+  "medals": {
+    "title": "Diyoraning meddalari",
+    "total": "dzyudo bo'yicha jami jahon medallari"
+  },
+  "connections": {
+    "title": "Asosiy ulanishlar",
+    "1": {
+      "name": "Janob Shavkat Mirziyoyev",
+      "title": "O'zbekiston Respublikasi Prezidenti."
+    },
+    "2": {
+      "name": "Adham Ikromov",
+      "title": "O‘zbekiston Respublikasi sport vaziri"
+    },
+    "3": {
+      "name": "Shahnoza Mirziyoyeva",
+      "title": "O‘zbekiston Ijtimoiy himoya milliy agentligi direktorining birinchi o‘rinbosari."
+    },
+    "4": {
+      "name": "Otabek Umarov",
+      "title": "Osiyo olimpiya kengashi vitse-prezidenti."
+    },
+    "5": {
+      "name": "Azizjon Kamilov",
+      "title": "O‘zbekiston dzyudo federatsiyasi raisi."
+    },
+    "6": {
+      "name": "Bahodir Qurbonov",
+      "title": "Oʻzbekiston mudofaa vaziri."
+    }
+  },
+
+  "dk": "Diyora </br> Keldiyorova",
+  "about": "Dzyudo bo‘yicha Olimpiya chempioni Diyora Keldiyorova 28 iyul kuni Parijda bo‘lib o‘tgan dzyudo bo‘yicha -52 kg vazn toifasida mamlakat tarixida ilk bor Olimpiya o‘yinlarida oltin medalni qo‘lga kiritib, O‘zbekiston milliy qahramoniga aylandi. Sportdagi ajoyib yutuqlari, jumladan, jahon chempionatining ikkita kumush medali bilan bir qatorda, Keldiyorova yuksaklik, do‘stlik va hurmat kabi Olimpiya qadriyatlarini o‘zida mujassam etgan. U o‘rnak bo‘lib, son-sanoqsiz ayollar va qizlarni ilhomlantirib, ularga qat’iyat kuchi va istiqboldagi imkoniyatlarni ko‘rsatmoqda.",
+  "view_more": "Koʻproq koʻrish",
+  "follow": "Meni kuzatib boring",
+  "contact_us": {
+    "title": "Biz bilan bog'lanish",
+    "name": "Ism",
+    "email": "Elektron pochta manzili",
+    "message": "Xabar...",
+    "desc": "Savollaringiz yoki takliflaringiz bormi? Xabaringizni qoldiring va biz sizga bir zumda javob beramiz!",
+    "send_message": "Xabar yuborish"
   }
 }
