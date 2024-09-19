@@ -5,7 +5,7 @@ import Logo from "./logo";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
-const Navbar = () => {
+const Navbar = ({ t }) => {
   const pathname = usePathname();
 
   const { push } = useRouter();
@@ -59,26 +59,26 @@ const Navbar = () => {
       <Link href={`/${language}`}>
         <Logo />
       </Link>
-      <nav className="flex items-center gap-4">
+      <nav className="flex items-center gap-8">
         <ul className="text-[#878787] text-xl font-normal lg:flex gap-[60px] hidden">
           <li className="cursor-pointer">
             <a href="#about-me" className="nav-link">
-              About me
+              {t.nav.about_me}
             </a>
           </li>
           <li className="cursor-pointer">
             <a href="#results" className="nav-link">
-              Results
+              {t.nav.results}
             </a>
           </li>
           <li className="cursor-pointer">
             <a href="#gallery" className="nav-link">
-              Gallery
+              {t.nav.gallery}
             </a>
           </li>
           <li className="cursor-pointer">
             <a href="#connections" className="nav-link">
-              Key connections
+              {t.nav.key_connections}
             </a>
           </li>
         </ul>

@@ -18,6 +18,12 @@
     "title": "Медали </br> Диёры",
     "total": "Общий мировой тур по дзюдо медали"
   },
+  "nav": {
+    "about_me": " Обо мне",
+    "results": "Результаты",
+    "gallery": "Галерея",
+    "key_connections": "Ключевые соединения"
+  },
   "connections": {
     "title": "Ключевые связи",
     "total": "total world judo tour",

@@ -45,7 +45,12 @@
       "title": "Oʻzbekiston mudofaa vaziri."
     }
   },
-
+  "nav": {
+    "about_me": "Men haqimda",
+    "results": "Natijalar",
+    "gallery": "Galereya",
+    "key_connections": "Kalit ulanishlar"
+  },
   "dk": "Diyora </br> Keldiyorova",
   "about": "Dzyudo bo‘yicha Olimpiya chempioni Diyora Keldiyorova 28 iyul kuni Parijda bo‘lib o‘tgan dzyudo bo‘yicha -52 kg vazn toifasida mamlakat tarixida ilk bor Olimpiya o‘yinlarida oltin medalni qo‘lga kiritib, O‘zbekiston milliy qahramoniga aylandi. Sportdagi ajoyib yutuqlari, jumladan, jahon chempionatining ikkita kumush medali bilan bir qatorda, Keldiyorova yuksaklik, do‘stlik va hurmat kabi Olimpiya qadriyatlarini o‘zida mujassam etgan. U o‘rnak bo‘lib, son-sanoqsiz ayollar va qizlarni ilhomlantirib, ularga qat’iyat kuchi va istiqboldagi imkoniyatlarni ko‘rsatmoqda.",
   "view_more": "Koʻproq koʻrish",
