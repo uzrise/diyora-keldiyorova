@@ -13,14 +13,14 @@ const ContactForm = ({ t }) => {
     const telegram_message = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
 
     fetch(
-      `https://api.telegram.org/bot${`1989219584:AAGydBoy_0dS2kcniLujhReiv05o3z-wrNA`}/sendMessage`,
+      `https://api.telegram.org/bot${`7851770190:AAGykp4ZqDLmllGJVUw54OCCgYjg1bFJBvg`}/sendMessage`,
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          chat_id: "-1002476405069",
+          chat_id: "-1002467431572",
           text: telegram_message,
         }),
       }
