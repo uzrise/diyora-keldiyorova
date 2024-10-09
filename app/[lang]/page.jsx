@@ -3,6 +3,11 @@ import Logo from "./components/logo";
 import Navbar from "./components/navbar";
 import ContactForm from "./components/contact-us";
 import Socials from "./components/socials";
+import {
+  LogoSecurityEn,
+  LogoSecurityRu,
+  LogoSecurityUz,
+} from "./components/logo-security";
 import Link from "next/link";
 import { getDictionary } from "./dictionaries";
 
@@ -68,7 +73,7 @@ export default async function Home({ params: { lang } }) {
           </div>
         </div>
       </section>
-      <main className="pt-[120px] px-[64px] lg:p-10  xl:p-20 2xl:p-[160px] flex flex-col gap-[120px] lg:gap-[96px] 2xl:gap-[160px] ">
+      <main className="pt-[120px] px-8 lg:p-10  xl:p-20 2xl:p-[160px] flex flex-col gap-[120px] lg:gap-[96px] 2xl:gap-[160px] ">
         <section className="flex-col xl:flex-row flex justify-between gap-[64px] ">
           <span
             className="text-2xl"
@@ -271,32 +276,26 @@ export default async function Home({ params: { lang } }) {
             alt="result-1"
           />
         </section>
-        <section id="connections" className="flex flex-col gap-[100px]">
-          <h1
-            className="text-7xl font-semibold text-center"
-            dangerouslySetInnerHTML={{ __html: t.connections.title }}
-          />
+        <section className="bg-[#252525] sm:p-20 p-5 rounded-[50px] flex gap-[72px] justify-between items-center xl:flex-nowrap flex-wrap-reverse overflow-hidden">
+          <div className="flex-1">
+            {lang === "en" && <LogoSecurityEn />}
+            {lang === "ru" && <LogoSecurityRu />}
+            {lang === "uz" && <LogoSecurityUz />}
 
-          <div className="flex flex-wrap gap-8 2xl:gap-12 justify-center">
-            {leaders.map((leader, index) => (
-              <div
-                key={index}
-                className="w-[384px] 2xl:w-[490px] flex gap-1 flex-col bg-[#252525] rounded-[30px] overflow-hidden"
-              >
-                <Image
-                  src={leader.imgSrc}
-                  width={500}
-                  height={360}
-                  className="2xl:h-[360px] h-[280px]  object-cover"
-                  alt={`result-${index + 1}`}
-                />
-                <div className="flex flex-col gap-3 2xl:p-10 p-9">
-                  <h4 className="2xl:text-[30px] text-[27px]">{leader.name}</h4>
-                  <p className="text-xl text-[#65676C]">{leader.title}</p>
-                </div>
-              </div>
-            ))}
+            <h1 className="font-semibold 2xl:text-[64px] sm:my-12 my-6 leading-[80px] sm:text-[56px] !text-4xl ">
+              {t.socials.title}
+            </h1>
+            <p className="text-[#878787] sml:text-2xl text-base">
+              {t.socials.desc}
+            </p>
           </div>
+          <Image
+            src={"/img/presentation.png"}
+            width={694}
+            height={650}
+            className="object-contain 2xl:m-0 xl:mr-[-253px] mx-auto "
+            alt="image"
+          />
         </section>
         <section id="gallery" className="flex flex-col  gap-[64px]">
           <div className="grid grid-cols-2 gap-8">

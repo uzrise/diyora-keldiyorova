@@ -11,6 +11,7 @@ export default function Layout({ children, params }) {
   if (!lang) {
     redirect("/en");
   }
+
   return (
     <html lang={params.lang} className={sora.className}>
       <body>
@@ -100,7 +101,7 @@ export default function Layout({ children, params }) {
             </div>
             <div className="border-t border-white pt-[30px] text-lg text-center justify-center flex xl:flex-row flex-col w-full mt-[100px] gap-5">
               <p>
-                © 2024 Diyora Keldiyorova.{" "}
+                © 2024 Diyora Keldiyorova
                 {params.lang === "uz"
                   ? "Barcha huquqlar himoyalangan"
                   : params.lang === "ru"

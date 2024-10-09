@@ -62,5 +62,9 @@
     "message": "Xabar...",
     "desc": "Savollaringiz yoki takliflaringiz bormi? Xabaringizni qoldiring va biz sizga bir zumda javob beramiz!",
     "send_message": "Xabar yuborish"
+  },
+  "socials": {
+    "title": "Special representative of the National Social Protection Agency",
+    "desc": "Diyora Keldiyorova, Special Representative of the National Agency for Social Protection, is responsible for raising awareness of gender inequality and violence against children, advocating for policy reforms, and working with organizations to address these issues. It monitors cases, makes recommendations to policy makers and ensures that victims have access to basic support services, while ensuring a more just and fair society in Uzbekistan."
   }
 }

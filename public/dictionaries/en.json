@@ -53,6 +53,7 @@
     "gallery": "Gallery",
     "key_connections": "Key connections"
   },
+
   "dk": "Diyora </br> Keldiyorova",
   "about": "Olympic champion in Judo, Diyora Keldiyorova became a national hero in Uzbekistan on 28 July by winning the country`s first-ever Olympic judo gold in the -52kg category at Paris 2024. Beyond her impressive athletic achievements, including two World Championship silver medals, Keldiyorova embodies the Olympic values of excellence, friendship and respect. She is a role model, inspiring countless women and girls, showing them the power of determination and the possibilities that lie ahead.",
   "view_more": "View More",
@@ -64,5 +65,9 @@
     "message": "Messages...",
     "desc": "Have any questions or propositions? Leave your message and we`ll get back to you in an instant!",
     "send_message": "Send Message"
+  },
+  "socials": {
+    "title": "Special representative of the National Social Protection Agency",
+    "desc": "Ijtimoiy himoya milliy agentligining maxsus vakili Diyora Keldiyorova gender tengsizligi va bolalarga nisbatan zo❜ravonlik haqida xabardorlikni oshirish, siyosat islohotlarini targ❜ib qilish va ushbu muammolarni hal qilish uchun tashkilotlar bilan hamkorlik qilish uchun mas❜uldir. U ishlarni kuzatib boradi, siyosatchilarga tavsiyalar beradi va jabrlanuvchilarning asosiy yordam xizmatlaridan foydalanishini ta❜minlaydi, shu bilan birga  O❜zbekistonda yanada adolatli va adolatli jamiyatni ta❜minlaydi."
   }
 }
